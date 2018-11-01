@@ -1,5 +1,5 @@
-# CODEVEMBER 2018
+# [CODEVEMBER 2018](https://rajatkantinandi.github.io/Codevember-2018)
 
-## List of Activities
+## List of Challenges
 
-- [Day 1: Rainbow Infinity Loader using P5.js](/Day1-Infinity)
+- [Day 1: Rainbow Infinity Loader using P5.js](https://rajatkantinandi.github.io/Codevember-2018/Day1-Infinity)
