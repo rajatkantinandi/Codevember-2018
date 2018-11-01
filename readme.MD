@@ -1,4 +1,4 @@
-# [CODEVEMBER 2018](https://rajatkantinandi.github.io/Codevember-2018)
+# [CODEVEMBER 2018](https://rajatkantinandi.github.io/Codevember-2018/index.html)
 
 ## List of Challenges
 
