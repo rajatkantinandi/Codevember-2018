@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>#codevember - 2 - Fibonacci Time Bomb</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Audiowide" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div>
+            <h1>Fibonacci Time Bomb</h1>
+            <h3>To defuse the bomb answer the fibnacci series question correctly in time, wrong answer will explode the
+                bomb. Click on the moving 'defuse bomb' button to start.</h3>
+        </div>
+        <div class="alert">
+            <h1>Success!</h1>
+        </div>
+        <div class="bomb">
+            <div class="battery"></div>
+            <div class="display">
+                <div class="timer">01:29:99</div>
+                <div class="game">
+                    <button class="defuse">Defuse the bomb</button>
+                    <div class="question">
+                        <b>What is the sum of fibonacci numbers upto <span id="upto">300</span> starting from 0,1?</b>
+                        <br />
+                        <input type="password" id="answer" placeholder="Type answer" size="10" /><button id="respond">Answer</button>
+                    </div>
+                </div>
+            </div>
+            <div class="battery"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
