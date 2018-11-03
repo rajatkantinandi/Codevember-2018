@@ -1,7 +1,7 @@
-# [CODEVEMBER 2018](https://rajatkantinandi.github.io/Codevember-2018/index.html)
+# [CODEVEMBER 2018](https://codepen.io/collection/XEmpqm/)
 
 ## List of Challenges
 
-- [Day 1: Rainbow Infinity Loader using P5.js](https://rajatkantinandi.github.io/Codevember-2018/Day1-Infinity)
+- [Day 1: Rainbow Infinity Loader using P5.js](https://codepen.io/rajatkantinandi/pen/jegJNG)
 
-- [Day 2: Fibonacci Time Bomb](https://rajatkantinandi.github.io/Codevember-2018/Day2-Time)
+- [Day 2: Fibonacci Time Bomb](https://codepen.io/rajatkantinandi/pen/KrPrKq)
