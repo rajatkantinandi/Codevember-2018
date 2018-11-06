@@ -49,7 +49,11 @@ function Spider(x, y) {
             la = this.legAngles;
         fill(255);
         translate(this.pos.x, this.pos.y);
-        rotate(acos(-this.velocity.y / this.velocity.mag()));
+        if (this.velocity.x > 0) {
+            rotate(acos(-this.velocity.y / this.velocity.mag()));
+        } else {
+            rotate(360 - acos(-this.velocity.y / this.velocity.mag()));
+        }
         ellipse(0, -bh / 2 - hh / 4, hw, hh); //head
         ellipse(0, 0, bw, bh); //body
         this.drawLeg(bw / 3, 3, la[0][0], la[0][1], 23, 27); //right bottom
