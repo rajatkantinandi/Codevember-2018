@@ -23,30 +23,32 @@ function draw() {
 function JellyFish(x, y) {
   this.x = x;
   this.y = y;
-  this.w = 300;
-  this.h = 150;
+  this.w = 200;
+  this.h = 70;
   this.d = 0;
+  this.change = this.w / 300;
   this.draw = function() {
     noStroke();
-    fill(250, 160, 100);
+    fill(60, 200, 250);
     push();
     translate(x, y);
     beginShape();
     vertex(-this.w / 2, 0);
+    curveVertex(-this.w / 2, 0);
     curveVertex(-this.w / 4 - this.d, -this.h / 2);
     curveVertex(0, -this.h);
     curveVertex(this.w / 4 + this.d, -this.h / 2);
+    curveVertex(this.w / 2, 0);
     vertex(this.w / 2, 0);
     endShape();
     pop();
   };
   this.update = function() {
-    var change = this.w / 300;
-    if (this.d <= 0) {
-      change = this.w / 300;
-    } else if (this.d >= this.w / 5) {
-      change = -this.w / 300;
+    if (this.d <= this.w / 20) {
+      this.change = this.w / 300;
+    } else if (this.d >= this.w / 7) {
+      this.change = -this.w / 1000;
     }
-    this.d += change;
+    this.d += this.change;
   };
 }
