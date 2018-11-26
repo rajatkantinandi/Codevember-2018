@@ -40,4 +40,6 @@
 
 - [Day 23: lollipop conic-gradient vs radial-gradient (Best on Chrome 69+)](https://codepen.io/rajatkantinandi/pen/gQepjV)
 
+- [Day 25: PureCSS Settings Icon](https://codepen.io/rajatkantinandi/pen/jQpEqL)
+
 > created By [![twitter logo](https://twitter.com/favicon.ico) Rajat Kanti Nandi](https://twitter.com/rajatkantinandi)
