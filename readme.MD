@@ -1,3 +1,5 @@
+[Infinity Loader](https://github.com/rajatkantinandi/Codevember-2018/raw/master/Day1-Infinity/demo.gif)
+
 # [CODEVEMBER 2018](https://codepen.io/collection/XEmpqm/)
 
 ## List of Completed Challenges
@@ -37,3 +39,5 @@
 - [Day 22: PureCSS Realistic Lock & Key Toggle](https://codepen.io/rajatkantinandi/pen/GwQMMb)
 
 - [Day 23: lollipop conic-gradient vs radial-gradient (Best on Chrome 69+)](https://codepen.io/rajatkantinandi/pen/gQepjV)
+
+> created By [![twitter logo](https://twitter.com/favicon.ico) Rajat Kanti Nandi](https://twitter.com/rajatkantinandi)
