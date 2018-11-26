@@ -1,0 +1,144 @@
+body{
+  background:white;
+}
+.container{
+  display:flex;
+  align-items:center;
+  background:white;
+  flex-direction:column;
+  margin-top:150px;
+}
+.clippings,.holes{
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+  justify-content:space-between;
+  width:350px;
+  height:40px;
+  position:absolute;
+  z-index:5;
+}
+.rings{
+  width:20px;
+  height:40px;
+  border-radius:50%;
+  border:10px solid #235;
+  transform-origin:50% 50%;
+  transform:skewx(-20deg) rotatey(40deg) translatex(5px);
+  border-right:none;
+  border-bottom:none;
+}
+.page{
+  width:400px;
+  height:360px;
+  background:#ffe;
+  border-radius:10px;
+  position:absolute;
+  z-index:3;
+  margin-top:18px;
+  border:2px solid blue;
+  box-shadow: 2px 2px 10px 1px black;
+  transform-origin:50% 0%;
+}
+.hole{
+  width:30px;
+  height:30px;
+  border-radius:50%;
+  background:#222;
+  transform-origin:50% 50%;
+  transform:translatex(20px);
+}
+@keyframes turn{
+  20%{    
+  transform:rotatex(-72deg) skewx(10deg) translatex(5px);
+  }
+  40%{    
+  transform:rotatex(-144deg) skewx(20deg) translatex(8px);
+  }
+  70%{    
+  transform:rotatex(-359deg) skewx(2deg) translatex(-1px);
+  }
+  100%{
+  transform:rotatex(-360deg) skewx(0deg) translatex(0px); 
+  }
+}
+.front-page{
+  z-index:4;
+}
+.back-page{
+  z-index:2;
+}
+.page .content{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  padding-top:30px;
+}
+.content .header{
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between;
+  align-items:center;
+  width:340px;
+}
+td,th{
+  width:1.6em;
+  text-align:center;
+  height:1.6em;
+  font-size:1.1em;
+  margin:0px 5px;
+}
+td.today{
+  background:indigo;
+  color:white;
+  font-weight:bold;
+  border-radius:50%;
+  box-shadow:0px 0px 10px -1px indigo;
+}
+.dname{
+  background:#225;
+  color:white;
+  border-radius:5px;
+  padding:0px 5px;
+}
+.holiday{
+  color:maroon;
+  font-weight:bold;
+}
+.dname.holiday{
+  color:pink;
+  background:#522;
+}
+.btn{
+  border:5px solid indigo;
+  width:8px;
+  height:8px;
+  transform-origin:50% 50%;
+  transform:rotateZ(45deg);
+  cursor:pointer;
+  background:transparent;
+  display:inline-block;
+}
+.next-btn{
+  border-left:none;
+  border-bottom:none;
+}
+.prev-btn{
+  border-right:none;
+  border-top:none;
+}
+@media (max-width:400px){
+  .container{
+    transform:scale(0.9);
+  }
+}
+@media (max-width:350px){
+  .container{
+    transform:scale(0.8);
+  }
+}
+@media (max-width:300px){
+  .container{
+    transform:scale(0.7);
+  }
+}

@@ -1,0 +1,85 @@
+:root{
+  --glow:0px;
+  --bg:#555;
+  animation: glow 3s infinite ease-in-out;
+}
+@keyframes glow{
+  40%{
+    --glow:80px;
+    --bg:limegreen;
+  }
+  60%{
+    --glow:80px;
+    --bg:limegreen;
+  }
+  80%{
+    --glow:0px;
+    --bg:#555;
+  }
+  100%{
+    --glow:0px;
+    --bg:#555;
+  }
+}
+body{
+  background:black;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  flex-direction:column;
+}
+.logo{
+  margin-top:50px;
+  width:250px;
+  height:250px;
+  border-radius:50%;
+  border:15px solid var(--bg);
+  box-shadow:0px 0px var(--glow) 0px lime;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  background:transparent;
+}
+.logo::before{
+  content:"";
+  width:300px;
+  height:300px;
+  position:absolute;
+  border-radius:50%;
+  border:15px solid var(--bg);
+  box-shadow:0px 0px var(--glow) 0px lime;
+  background:transparent;
+}
+.inner{
+  width:80px;
+  height:80px;
+  border-radius:50%;
+  border:25px solid var(--bg);
+  box-shadow:0px 0px var(--glow) 0px lime;
+  background:transparent;
+  position:absolute;
+  z-index:5;
+}
+.inner::before{
+  content:"";
+  width:130px;
+  height:30px;
+  background:var(--bg);
+  position:absolute;
+  z-index:2;
+  margin-top:-50px;
+  margin-left:-25px;
+  box-shadow:0px 0px var(--glow) 0px lime;
+}
+.inner::after{
+  content:"";
+  width:130px;
+  height:30px;
+  background:var(--bg);
+  position:absolute;
+  z-index:2;
+  margin-top:100px;
+  margin-left:-25px;
+  box-shadow:0px 0px var(--glow) 0px lime;
+}
