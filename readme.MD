@@ -44,4 +44,6 @@
 
 - [Day 26: Girl sleeping in bed on a stormy midnight (PureCSS)](https://codepen.io/rajatkantinandi/pen/LXJNEY)
 
+- [Day 28: SO MANY SPEAKERS !!](https://codepen.io/rajatkantinandi/pen/NEOdoQ)
+
 > created By [![twitter logo](https://twitter.com/favicon.ico) Rajat Kanti Nandi](https://twitter.com/rajatkantinandi)
