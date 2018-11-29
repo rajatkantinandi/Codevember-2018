@@ -46,4 +46,6 @@
 
 - [Day 28: SO MANY SPEAKERS !!](https://codepen.io/rajatkantinandi/pen/NEOdoQ)
 
+- [Day 29: Empty Cart(PureCSS)](https://codepen.io/rajatkantinandi/pen/MzzdLB)
+
 > created By [![twitter logo](https://twitter.com/favicon.ico) Rajat Kanti Nandi](https://twitter.com/rajatkantinandi)

@@ -1,0 +1,140 @@
+body{
+  background:black;
+}
+.container{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  background:black;
+  flex-direction:column;
+}
+*:before,*:after{
+  display:block;
+  position:absolute;
+  content:"";
+}
+.cart{
+  position:absolute;
+  margin-top:200px;
+  width:250px;
+}
+.stand{
+  width:20px;
+  height:150px;
+  background:#880E4F;
+  transform-origin:0% 0%;
+  transform:rotate(-20deg);
+  position:absolute;
+  z-index:3;
+}
+.stand:before{
+  width:20px;
+  height:100px;
+  background:#880E4F;
+  margin-top:150px;
+  transform-origin:100% 0%;
+  transform:rotatez(50deg);
+  border-radius:0 0 60% 20%;
+}
+.stand:after{
+  width:14px;
+  height:55px;
+  background:#880E4F;
+  margin:150px 6px;
+  border-radius:0 0 60% 20%;
+}
+.skate{
+  position:absolute;
+  height:25px;
+  width:200px;
+  background:orangered;
+  border-radius:50% 5% 55% 5%;
+  z-index:2;
+  margin:188px 15px;
+}
+.wheels{
+  position:absolute;
+  z-index:2;
+  width:220px;
+  height:50px;
+  margin-top:180px;
+}
+.wheel{
+  border-radius:50%;
+  background:#212121;
+  border:5px solid grey;
+}
+.wheel:nth-child(1){
+  width:30px;
+  height:30px;
+  margin:10px -8px;
+}
+.wheel:nth-child(2){
+  width:20px;
+  height:20px;
+  margin:-45px 185px;
+}
+.wheel:nth-child(2):before{
+  width:35px;
+  height:25px;
+  border-top:6px solid white;
+  margin:-11px -8px;
+  border-radius:50%;
+}
+.basket{
+  width:190px;
+  height:120px;
+  border-radius:0 100px 50px 100px/0 30px 70px 100px;
+  background:transparent;
+  position:absolute;
+  margin-left:20px;
+  border:4px solid yellow;
+  border-bottom-width:10px;
+}
+.basket:before{
+  width:250px;
+  height:20px;
+  border-radius:20px 30% 60% 20px;
+  background:#BF360C;
+  margin:-18px -50px;
+  transform-origin:0% 50%;
+  transform:rotate(5deg);
+  z-index:5;
+}
+.rec-v{
+  width:20px;
+  height:100px;
+  border-radius:10px;
+  border:4px solid white;
+  transform-origin:50% 0%;
+  transform:rotatez(-10deg);
+  position:absolute;
+}
+.rec-v:nth-child(1){
+  margin:5px 10px;
+}
+.rec-v:nth-child(2){
+  margin:3px 55px;
+  transform:rotatez(-5deg) scaley(1.12);
+}
+.rec-v:nth-child(3){
+  margin:7px 105px;
+  transform:rotatez(0deg) scaley(1.1);
+}
+.rec-v:nth-child(4){
+  margin:4px 155px;
+  transform:rotatez(5deg) scaley(1.1);
+}
+.rec-h{
+  width:180px;
+  height:25px;
+  border-radius:15px;
+  border:4px solid skyblue;
+  transform-origin:0% 50%;
+  transform:rotate(5deg);
+  margin:15px 5px;
+}
+.rec-h2{
+  transform:rotate(5deg) scalex(0.9);
+  margin:15px;
+}
