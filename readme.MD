@@ -1,4 +1,4 @@
-![Infinity Loader](https://github.com/rajatkantinandi/Codevember-2018/raw/master/Day1-Infinity/demo.gif)
+![Infinity Loader](https://github.com/rajatkantinandi/Codevember-2018/raw/master/Day01-Infinity/demo.gif)
 
 # [CODEVEMBER 2018](https://codepen.io/collection/XEmpqm/)
 
