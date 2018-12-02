@@ -18,6 +18,8 @@
 
 - [Day 7: JellyFish in the sea](https://codepen.io/rajatkantinandi/pen/wQWyqo)
 
+- [Day 8: Cute Meowth Pokemon (PureCSS)](https://codepen.io/rajatkantinandi/pen/rQPxVN)
+
 - [Day 9: Glowing Green Lantern Logo PureCSS](https://codepen.io/rajatkantinandi/pen/wQWjjw)
 
 - [Day 12: Egg Toast CSS Illustration](https://codepen.io/rajatkantinandi/pen/yQKgGq)
